@@ -21,7 +21,7 @@ import time
 class PlexAlertListener(threading.Thread):
 
 	productName = "Plex Media Server"
-	updateTimeoutTimerInterval = 30
+	updateTimeoutTimerInterval = 60
 	connectionTimeoutTimerInterval = 60
 	maximumIgnores = 2
 
